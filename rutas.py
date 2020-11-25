@@ -23,5 +23,3 @@ def contar_rutas_mas_cortas(C):
                 C[i][j] = C[i-1][j]+C[i][j-1]
     
     return C[len(C)-1][len(C[i])-1]
-
-print()
